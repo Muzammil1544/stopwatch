@@ -1,0 +1,82 @@
+body{
+    text-align: center;
+}
+
+.stopwatch::before {
+    background: url(1.jpg)
+    no-repeat center center/cover ;
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.5;
+}
+.stopwatch{
+   
+    height: 100%;
+    width: 60%;
+    margin: auto;
+    border-radius: 15px;
+    padding: 10px 15px;
+   
+}
+.head {
+    border: 6px solid black;
+    border-radius: 34px;
+    margin: 3px auto;
+    background-color: brown;
+    color: white;
+    width: fit-content;
+    padding: 7px 23px;
+    font-size: 4rem;
+}
+
+.num {
+    display: flex;
+    height: 40%;
+    margin: 21px auto;
+    border: 2px solid black;
+    border-radius: 94px;
+    padding: 66px 34px;
+    width: fit-content;
+    background-color: wheat;
+}
+.number {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 2px 4px;
+    background-color: white;
+    color: black;
+    font-size: 2.7rem;
+    font-weight: bold;
+}
+.btn {
+    font-size: 23px;
+    font-weight: bolder;
+    padding: 4px 6px;
+    margin: 2px 5px;
+    color: rgb(27, 5, 4);
+    background-color: rgb(213, 224, 233);
+    border-radius: 5px;
+}
+.btn:hover {
+    font-size: 28px;
+    color: white;
+    background-color: black;
+}
+ .name{
+     border: 1px solid black;
+     border: 5px;
+ }
+ .name h1{
+     font-size: 2rem;
+     padding: 3px 5px;
+     font-weight: 800;
+     color:white;
+     background-color: black;
+   
+}
